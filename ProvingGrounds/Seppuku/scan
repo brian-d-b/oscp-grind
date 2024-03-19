@@ -1,0 +1,73 @@
+# Nmap 7.93 scan initiated Mon Mar 18 23:46:06 2024 as: nmap -sC -sV -O -A -p 21,22,80,139,445,7080,7601,8088 -oN scan 192.168.193.90
+Nmap scan report for 192.168.193.90
+Host is up (0.069s latency).
+
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           vsftpd 3.0.3
+22/tcp   open  ssh           OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 cd55a8e40f28bcb2a67d4176bb9f71f4 (RSA)
+|   256 16fa29e4e08a2e7d37d26f42b2dce922 (ECDSA)
+|_  256 bb74e897fa308ddaf95c99f0d9248ad5 (ED25519)
+80/tcp   open  http          nginx 1.14.2
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Restricted Content
+|_http-title: 401 Authorization Required
+|_http-server-header: nginx/1.14.2
+139/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn   Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+7080/tcp open  ssl/empowerid LiteSpeed
+|_http-title: Did not follow redirect to https://192.168.193.90:7080/
+| ssl-cert: Subject: commonName=seppuku/organizationName=LiteSpeedCommunity/stateOrProvinceName=NJ/countryName=US
+| Not valid before: 2020-05-13T06:51:35
+|_Not valid after:  2022-08-11T06:51:35
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: LiteSpeed
+| tls-alpn: 
+|   h2
+|   spdy/3
+|   spdy/2
+|_  http/1.1
+7601/tcp open  http          Apache httpd 2.4.38 ((Debian))
+|_http-title: Seppuku
+|_http-server-header: Apache/2.4.38 (Debian)
+8088/tcp open  http          LiteSpeed httpd
+|_http-title: Seppuku
+|_http-server-header: LiteSpeed
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 4.15 - 5.6 (87%), Linux 5.4 (87%), Linux 2.6.32 (86%), Linux 2.6.32 or 3.10 (86%), Linux 3.5 (86%), Linux 4.8 (86%), Synology DiskStation Manager 5.1 (86%), Linux 2.6.18 (86%), Linux 2.6.35 (86%), Linux 2.6.39 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: Host: SEPPUKU; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2024-03-19T03:46:28
+|_  start_date: N/A
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: seppuku
+|   NetBIOS computer name: SEPPUKU\x00
+|   Domain name: \x00
+|   FQDN: seppuku
+|_  System time: 2024-03-18T23:46:28-04:00
+|_clock-skew: mean: 1h19m59s, deviation: 2h18m34s, median: 0s
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   65.38 ms 192.168.45.1
+2   65.38 ms 192.168.45.254
+3   65.41 ms 192.168.251.1
+4   66.46 ms 192.168.193.90
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 18 23:46:36 2024 -- 1 IP address (1 host up) scanned in 29.83 seconds
