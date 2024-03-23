@@ -1,0 +1,112 @@
+301      GET        9l       28w      321c http://192.168.227.211/election => http://192.168.227.211/election/
+301      GET        9l       28w      327c http://192.168.227.211/election/admin => http://192.168.227.211/election/admin/
+301      GET        9l       28w      327c http://192.168.227.211/election/media => http://192.168.227.211/election/media/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/js (Apache)
+301      GET        9l       28w      324c http://192.168.227.211/election/js => http://192.168.227.211/election/js/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/media (Apache)
+200      GET       24l       75w      698c http://192.168.227.211/election/js/tripath.localization.js
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/data (Apache)
+301      GET        9l       28w      326c http://192.168.227.211/election/data => http://192.168.227.211/election/data/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/media/cache (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/media/backgrounds (Apache)
+200      GET       26l      109w    10366c http://192.168.227.211/election/media/backgrounds/codename-logo.png
+200      GET     1620l     8202w   740155c http://192.168.227.211/election/media/backgrounds/codename.jpg
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/languages (Apache)
+301      GET        9l       28w      331c http://192.168.227.211/election/languages => http://192.168.227.211/election/languages/
+200      GET        1l        1w        4c http://192.168.227.211/election/languages/localize.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/languages/en-us (Apache)
+200      GET       80l      429w     4390c http://192.168.227.211/election/languages/en-us/loc_ajax.tp
+200      GET      233l      855w     9968c http://192.168.227.211/election/languages/en-us/loc_admin.tp
+200      GET       44l      211w     1986c http://192.168.227.211/election/languages/en-us/loc_main.tp
+200      GET       42l       75w      854c http://192.168.227.211/election/languages/en-us/loc_functions.tp
+200      GET       35l      201w     2186c http://192.168.227.211/election/languages/en-us/loc_plugin_excel_importer.tp
+200      GET        9l       20w      246c http://192.168.227.211/election/languages/en-us/info.tp
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/themes (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/themes/shards (Apache)
+500      GET       10l       26w      358c http://192.168.227.211/election/themes/shards/election.php
+200      GET        5l       15w      116c http://192.168.227.211/election/themes/shards/info.tp
+200      GET       24l      233w    12280c http://192.168.227.211/election/media/user.png
+301      GET        9l       28w      328c http://192.168.227.211/election/themes => http://192.168.227.211/election/themes/
+500      GET        7l       12w      151c http://192.168.227.211/election/themes/shards/home.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/lib (Apache)
+301      GET        9l       28w      325c http://192.168.227.211/election/lib => http://192.168.227.211/election/lib/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/media/kandidat (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/media/panitia (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/languages/id-id (Apache)
+200      GET        0l        0w        0c http://192.168.227.211/election/lib/homeAPI.php
+200      GET      234l      878w    10543c http://192.168.227.211/election/languages/id-id/loc_admin.tp
+200      GET       74l      408w     4517c http://192.168.227.211/election/languages/id-id/loc_ajax.tp
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/img (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/ajax (Apache)
+301      GET        9l       28w      332c http://192.168.227.211/election/admin/ajax => http://192.168.227.211/election/admin/ajax/
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_akun.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/registrasi.php
+200      GET        1l        5w       47c http://192.168.227.211/election/admin/ajax/op_updater.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/hakpilih.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_kandidat.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_siswa.php
+200      GET      483l     2446w   185317c http://192.168.227.211/election/admin/img/sidebar-4.jpg
+200      GET      345l     2225w   204291c http://192.168.227.211/election/admin/img/sidebar-3.jpg
+200      GET       37l       65w      713c http://192.168.227.211/election/languages/id-id/loc_functions.tp
+200      GET       35l      201w     2351c http://192.168.227.211/election/languages/id-id/loc_plugin_excel_importer.tp
+200      GET        9l       19w      243c http://192.168.227.211/election/languages/id-id/info.tp
+200      GET       43l      211w     2134c http://192.168.227.211/election/languages/id-id/loc_main.tp
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/logs (Apache)
+301      GET        9l       28w      332c http://192.168.227.211/election/admin/logs => http://192.168.227.211/election/admin/logs/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/inc (Apache)
+301      GET        9l       28w      331c http://192.168.227.211/election/admin/inc => http://192.168.227.211/election/admin/inc/
+200      GET        3l       28w      205c http://192.168.227.211/election/admin/logs/system.log
+200      GET        0l        0w        0c http://192.168.227.211/election/admin/inc/check_ajax.php
+200      GET        0l        0w        0c http://192.168.227.211/election/admin/inc/functions.php
+200      GET        0l        0w        0c http://192.168.227.211/election/admin/inc/conn.php
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/js (Apache)
+200      GET       24l       47w      660c http://192.168.227.211/election/admin/js/tripath-continous-insert.js
+200      GET        6l       75w     5170c http://192.168.227.211/election/admin/js/jquery.flip.min.js
+200      GET      146l      231w     3610c http://192.168.227.211/election/admin/js/index.js
+200      GET       13l       22w      415c http://192.168.227.211/election/admin/js/tripath-form-control.js
+200      GET       94l      232w     3040c http://192.168.227.211/election/admin/js/tripath-json.js
+200      GET       10l       95w     5091c http://192.168.227.211/election/admin/js/arrive.min.js
+200      GET      117l      442w     3121c http://192.168.227.211/election/admin/js/jquery.cookie.js
+200      GET      255l      885w     9949c http://192.168.227.211/election/admin/js/jquery.print.js
+200      GET        8l      217w    15226c http://192.168.227.211/election/admin/js/jquery.uploadfile.min.js
+200      GET        7l      432w    37045c http://192.168.227.211/election/admin/js/bootstrap.min.js
+200      GET      404l     1175w    16827c http://192.168.227.211/election/admin/js/bootstrap-notify.js
+200      GET     1277l     4695w    43892c http://192.168.227.211/election/admin/js/jquery.form.js
+200      GET     1296l     2318w    39746c http://192.168.227.211/election/admin/js/material-tripath.js
+200      GET        4l     1298w    86659c http://192.168.227.211/election/admin/js/jquery-3.2.1.min.js
+200      GET        1l     6137w   307810c http://192.168.227.211/election/admin/js/moment.min.js
+301      GET        9l       28w      330c http://192.168.227.211/election/admin/js => http://192.168.227.211/election/admin/js/
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/components (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/css (Apache)
+MSG      0.000 feroxbuster::heuristics detected directory listing: http://192.168.227.211/election/admin/plugins (Apache)
+301      GET        9l       28w      331c http://192.168.227.211/election/admin/css => http://192.168.227.211/election/admin/css/
+301      GET        9l       28w      338c http://192.168.227.211/election/admin/components => http://192.168.227.211/election/admin/components/
+301      GET        9l       28w      335c http://192.168.227.211/election/admin/plugins => http://192.168.227.211/election/admin/plugins/
+301      GET        9l       28w      331c http://192.168.227.211/election/admin/img => http://192.168.227.211/election/admin/img/
+500      GET        9l       44w      423c http://192.168.227.211/election/admin/components/nav.php
+200      GET        6l       14w      364c http://192.168.227.211/election/admin/components/navbar_header.php
+200      GET       14l       44w      689c http://192.168.227.211/election/admin/components/bottom_script.php
+200      GET        1l      498w     3985c http://192.168.227.211/election/admin/components/nice-background.php
+500      GET       12l       36w      580c http://192.168.227.211/election/admin/components/modals.php
+200      GET       16l       61w      954c http://192.168.227.211/election/admin/components/header.php
+500      GET       14l       23w      702c http://192.168.227.211/election/admin/components/footer.php
+200      GET      106l      236w     2223c http://192.168.227.211/election/admin/css/tripath-tiles.css
+200      GET     1579l     2856w    23848c http://192.168.227.211/election/admin/css/animate.css
+200      GET        6l     1429w   121200c http://192.168.227.211/election/admin/css/bootstrap.min.css
+200      GET     6780l    14744w   165243c http://192.168.227.211/election/admin/css/material-dashboard.css
+200      GET      415l     2250w   179691c http://192.168.227.211/election/admin/img/sidebar-1.jpg
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_kandidat_foto.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_guru.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_pengaturan.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_panitia.php
+200      GET        0l        0w    61982c http://192.168.227.211/election/admin/img/sidebar-2.jpg
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/op_akun_foto.php
+200      GET        1l        2w       15c http://192.168.227.211/election/admin/ajax/pemilihan.php
+200      GET        5l       43w     1268c http://192.168.227.211/election/admin/js/jquery.animatecss.min.js
+200      GET        1l       94w     8137c http://192.168.227.211/election/admin/js/material.min.js
+200      GET        9l      519w    36026c http://192.168.227.211/election/admin/js/chartist.min.js
+200      GET        2l      301w    25332c http://192.168.227.211/election/admin/js/perfect-scrollbar.jquery.min.js
+200      GET       50l       98w     1708c http://192.168.227.211/election/admin/js/tripath-tiles.js
+200      GET      264l      636w     7704c http://192.168.227.211/election/admin/js/material-dashboard.js
+200      GET      192l      449w     3648c http://192.168.227.211/election/admin/css/style.css
+200      GET      637l     1417w    13647c http://192.168.227.211/election/admin/css/material-tripath.css
